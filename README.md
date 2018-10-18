@@ -1,4 +1,4 @@
-# dreamy-data-prep
+# Dreamy Data Prep
 
 A pure JavaScript function to smartly reduce x/y data points, typically to prep for charting.
 
@@ -10,7 +10,7 @@ This function has no side effects, is idempotent, and returns the same format as
 
 Written particularly for Victory (https://formidable.com/open-source/victory/), but there's nothing specific to that library (or React) and it could easily be adapted to any x/y charting or data tool.
 
-You can use this function in place of the dataset reducing function in the Victory guide for large datasets (https://formidable.com/open-source/victory/guides/zoom-large-data/). The biggest advantage is that this function will work with line type charts, by preserving points just outside of the zoom range to maintain lines that should extend outside of that range.
+You can use this function in place of the dataset-reducing function in the Victory guide for large datasets (https://formidable.com/open-source/victory/guides/zoom-large-data/). The biggest advantage is that this function will work with line type charts, by preserving points just outside of the zoom range to maintain lines that should extend outside of that range.
 
 ## Sponsor: Dreamaker.io
 
